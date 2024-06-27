@@ -8,7 +8,10 @@ int main() {
     // cout<<"Enter the number : ";
 	cin>>num;
     int arr[num];
-    for(int i = 0;i < num;i++) cin>>arr[i];
+    for(int i = 0;i < num;i++){
+        // cout<<"Enter the value at "<<(i + 1)<<"th position : ";
+        cin>>arr[i];
+    }
     int count  = 0,maxi = 0;
     for(int i = 0;i < num;i++){
         if(arr[i] != 0) count++;
